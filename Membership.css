@@ -1,0 +1,113 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+	background-image:url(img/gym5.jpg);
+	width:100vw;
+	height:45vw;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-top:0.5rem solid black;
+	border-bottom:0.5rem solid black;
+}
+nav {
+	border:0px 	solid red;
+	width:100vw;
+	display:flex;
+}
+nav .logo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:40%;
+	color:white;
+	height:90px;
+	font-family: 'Quicksand', sans-serif;
+}
+nav .logo h1{
+font-size:32px;
+}
+nav .logo h1 span{
+color:#ec4141;
+margin-left:5	px;
+}	
+nav ul{
+display:flex;
+align-items:center;
+width:60%;
+height:90px;
+}	
+nav ul a{
+	color:white;
+	list-style-type:none;
+	padding:0.9rem 1.4rem;
+	margin:0.3px;
+	text-decoration:none;
+	font-size:14px;
+	font-family: 'Quicksand', sans-serif;
+}
+nav ul a:hover{
+	color: white;
+	border-bottom:2px solid black;
+	border-top:2px solid  black;
+}	
+nav ul li{
+	list-style:none;
+}	
+
+.membership-info {
+    color: #f2f2f2;
+    margin: 70px;
+    text-align: center;
+}
+
+.membership-plan {
+    background-image:url(img/gym2.jpg);
+    border: 1px solid #070000;
+    border-radius: 40px;
+    padding: 20px 0px 20px 0px; 
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    color: #ccc;
+    box-shadow: 10px 10px 3px black;
+}
+
+    .membership-plan h3 {
+        font-size: 24px;
+    }
+
+    .membership-plan p {
+        margin: 10px 0;
+    }
+
+    .membership-plan button {
+        background-color: #333;
+        color: #fdfdfd;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align:center;
+    padding: 10px;
+    
+}
