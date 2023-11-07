@@ -85,13 +85,6 @@ nav ul {
         cursor: pointer;
     }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align:center;
-    padding: 10px;
-    
-}
 
 
 nav ul a {
@@ -142,10 +135,11 @@ nav ul li {
 	color: #ec4141;
 }
 
-para .p {
-	width: 80% margin-top:2rem;
+.para.p {
+	width: 80% ;
+	margin-top:2rem;
 	font-size: 80px;
-	font-family: cursive;
+	font-family: cursive ;
 	color: white;
 	font-family: 'Quicksand', sans-serif;
 }

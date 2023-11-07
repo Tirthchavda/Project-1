@@ -7,11 +7,12 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1b1b1b;
     color: #fff;
+
     text-align: center;
     padding: 2px;
-	background-image:url(img/gym5.jpg);
+
 	width:100vw;
 	height:45vw;
 	background-size:cover;
@@ -72,15 +73,15 @@ nav ul li{
 }
 
 .membership-plan {
-    background-image:url(img/gym2.jpg);
+    background-color: #d00000;
     border: 1px solid #070000;
     border-radius: 40px;
     padding: 20px 0px 20px 0px; 
     margin: 10px;
     display: inline-block;
     width: 30%;
-    color: #ccc;
-    box-shadow: 10px 10px 3px black;
+    color: #121111;
+    box-shadow: 10px 10px 3px #74b65c;
 }
 
     .membership-plan h3 {
