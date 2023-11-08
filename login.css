@@ -38,6 +38,7 @@ body {
         margin-bottom: 20px;
         
         color: white;
+    }
         
         .logo {
         
@@ -49,7 +50,7 @@ body {
         
         width: 100px;
         
-        height: 100%;
+        height: 100%; 
         
         border: 3px solid #1c638f;
         
@@ -98,7 +99,7 @@ body {
             
             }
             
-            login-button:hover {
+            .login-button:hover {
             
             background: linear-gradient(to left, #45809f, #112e46, #041822);
             
