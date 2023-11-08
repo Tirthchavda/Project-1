@@ -75,8 +75,8 @@ nav ul li{
 .membership-plan {
     background-color: #d00000;
     border: 1px solid #070000;
-    border-radius: 40px;
-    padding: 20px 0px 20px 0px; 
+    border-radius: 50px;
+    padding: 0px 0px 10px 0px; 
     margin: 10px;
     display: inline-block;
     width: 30%;
@@ -89,7 +89,7 @@ nav ul li{
     }
 
     .membership-plan p {
-        margin: 10px 0;
+        margin: 0px ;
     }
 
     .membership-plan button {
