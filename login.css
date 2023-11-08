@@ -1,106 +1,69 @@
 body {
-
     font-family: Arial, sans-serif;
-    
-    margin: 0; padding: 0; background: linear-gradient(60deg, #185271, #06111a, #125b82);
-    
+    margin: 100;
+    padding: 0;
     display: flex;
-    
     justify-content: center;
-    
     align-items: center;
-    
     height: 100vh;
-    
-    }
-    
-    .login-container {
-    
-    background-color: #1f6a9537;
-    
+    background-size: cover;
+}
+
+img{
+    height:100%;
+}
+
+.login-container {
+    background-color: rgba(147, 31, 31, 0.22);
     border-radius: 25px;
-    
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    
     text-align: center;
-    
     padding: 40px;
-    
     width: 300px;
-    
     border: 1px solid #2a88c4;
-    }
+}
 
-    h1 {
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
 
-        font-size: 24px;
-        
-        margin-bottom: 20px;
-        
-        color: white;
-    }
-        
-        .logo {
-        
-        margin-bottom: 20px;
-        
-        }
-        
-        .logo img {
-        
-        width: 100px;
-        
-        height: 100%; 
-        
-        border: 3px solid #1c638f;
-        
-        border-radius: 100%;
-        
-        }
-        
-        .input-container {
-            
-        margin-bottom: 20px;
-        
-        }
+.logo {
+    margin-bottom: 20px;
+}
 
-        .input-container input {
+.logo img {
+    width: 100px;
+    height: 100%;
+    border: 3px solid #1c638f;
+    border-radius: 100%;
+}
 
-            width: 100%;
-            
-            padding: 10px;
-            
-            border: none;
-            
-            border-bottom: 1px solid #00508b;
-            
-            background-color: #00518b38;
-            
-            font-size: 16px;
-        }
-            
-            .login-button {
-            
-            background: linear-gradient(to right, #45809f, #112e46, #841822);
-            
-            color: #fff;
-            
-            border: none;
-            
-            border-radius: 5px;
-            
-            padding: 10px 20px;
-            
-            font-size: 16px;
-            
-            cursor: pointer;
-            
-            transition: background-color 0.3s;
-            
-            }
-            
-            .login-button:hover {
-            
-            background: linear-gradient(to left, #45809f, #112e46, #041822);
-            
-            }
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #00508b;
+    background-color: rgba(0, 81, 139, 0.22);
+    font-size: 16px;
+}
+
+.login-button {
+    background: linear-gradient(to right, #45809f, #112e46, #841822);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background: linear-gradient(to left, #45809f, #112e46, #041822);
+}
