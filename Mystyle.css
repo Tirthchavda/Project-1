@@ -36,7 +36,7 @@ nav .logo h1 {
 }
 
 nav .logo h1 span {
-	color: #ec4141;
+	color: #f40606;
 	margin-left: 5 px;
 }
 
@@ -108,7 +108,7 @@ nav ul li {
 }
 
 .active {
-	color: #ec4141;
+	color: #f20202;
 }
 
 .header-container {
@@ -132,7 +132,7 @@ nav ul li {
 }
 
 .text-primary {
-	color: #ec4141;
+	color: #f40303;
 }
 
 .para.p {
