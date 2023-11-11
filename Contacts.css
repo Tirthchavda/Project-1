@@ -1,16 +1,16 @@
 * {
     margin: 10px;
     padding: 0;
-    box-sizing: border-box;
+
     font-family: 'poppins', sans-serif;
+    overflow: hidden;
 }
 
 
-
 header {
-	background-image: url(img/gym2.jpg);
+	background-image: url(img/photo1.jpg);
 	width: 100vw;
-	height: 45vw;
+	height: 55vw;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -19,7 +19,7 @@ header {
 }
 nav {
     border: 0px solid red;
-    width: 100vw;
+    width: 105vw;
     display: flex;
 }
 
@@ -75,15 +75,18 @@ nav ul li {
 }
 
 .container {
-    min-height: 100vh; 
+    height: 90vw; 
     float: right;
-    margin-right: -7px;
+    margin-right: 45px;
+    margin-top:-20vw;
 }
 
 .container form {
     width: 670px;
-    height: 510px;
-    margin-top: -6vw;
+    height: 410px;
+    padding-bottom: 140px;
+    /*margin-top:-25vw;*/
+    margin-top: 12vw;
     display: flex;
     justify-content: center;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -154,7 +157,7 @@ textarea::-webkit-scrollbar-thumb {
     background: #f0ed5a;
     border-radius: 5px;
     margin-top: 20px;
-    font-weight: 600;
+    font-weight: 600vw;
     font-size: 20px;
     color: #333;
     width: 100px;
@@ -170,6 +173,10 @@ textarea::-webkit-scrollbar-thumb {
 
 ::placeholder {
     color: #fff;
+}
+
+.heading{
+    width: 25vw;
 }
 
 .heading h2 {
@@ -197,6 +204,10 @@ textarea::-webkit-scrollbar-thumb {
     color: #fff;
     text-align: center;
     margin-top: 20px;
+}
+
+.caption2{
+    width: 100vw;
 }
 
 .opt {
