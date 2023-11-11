@@ -5,23 +5,18 @@
     font-family: 'poppins', sans-serif;
 }
 
-body {
-    background-image: url(photo1.jpg);
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
-}
+
 
 header {
-    background-image: url(img/gym5.jpg);
-    width: 93vw;
-    height: 63vw;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: 0.5rem solid rgb(242, 8, 8);
-    border-bottom: 0.5rem solid rgb(250, 8, 8);
+	background-image: url(img/gym2.jpg);
+	width: 100vw;
+	height: 45vw;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top: 0.5rem solid black;
+	border-bottom: 0.5rem solid black;
 }
-
 nav {
     border: 0px solid red;
     width: 100vw;
@@ -80,15 +75,7 @@ nav ul li {
 }
 
 .container {
-    min-height: 100vh;
-    /*background: #08071d;
-    background-image:url(photo1.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url('photo2.jpg') no-repeat center center/cover;*/
+    min-height: 100vh; 
     float: right;
     margin-right: -7px;
 }
@@ -128,7 +115,7 @@ nav ul li {
 }
 
 .container form #name,
-.container form mobile {
+.container form #mobile {
     margin-left: 20px;
 }
 
