@@ -62,8 +62,8 @@ nav ul a {
 
 nav ul a:hover {
     color: white;
-    border-bottom: 2px solid rgb(239, 68, 68);
-    border-top: 2px solid rgb(239, 68, 68);
+    border-bottom: 2px solid rgb(20, 10, 10);
+    border-top: 2px solid rgb(23, 16, 16);
 }
 
 nav ul li {
