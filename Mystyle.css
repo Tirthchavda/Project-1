@@ -168,6 +168,8 @@ a{
 
 a{
 	color: #ffff;
+	text-decoration: none;
+
 }
 
 .log-in:hover{
@@ -301,3 +303,32 @@ footer {
   .social-links img:hover {
 	transform: scale(1.5);
   }
+
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	min-width: 160px;
+	min-height: 30px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	border-radius: 15px;
+  }
+  
+  .dropdown-content a {
+	color: rgb(246, 244, 244);
+	padding: 1px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: small;
+  }
+  .dropdown-content a:hover {background-color: #000000;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
