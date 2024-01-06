@@ -308,4 +308,24 @@
  }
 
 
+ .img-wrapper {  
+  width: 700px;
+  height: 350px;
+  overflow: hidden; 
+}
+
+.yoga {
+  transition: 0.3s;
+}
+
+.yoga:hover {
+  transform: scale(1.1);
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
  
+}

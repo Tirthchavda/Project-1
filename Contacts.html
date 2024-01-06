@@ -13,7 +13,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body style="
+margin-top: 0px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+">
 
     <header>
         <nav>
@@ -55,7 +60,7 @@
 
                     <input type="email" name="name" id="email" placeholder="E-MAIL" required><br><br>
 
-                    <input type="tel" name="name" id="mobile" required placeholder="Mobile"><br><br>
+                    <input  type="tel" pattern="[0-9]{10}"  name="name" id="mobile" required placeholder="Mobile"><br><br>
 
                     <h4 class="opthead">HOW CAN WE HELP?</h4>
                     <div><select class="opt">

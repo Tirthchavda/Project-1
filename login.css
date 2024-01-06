@@ -52,6 +52,7 @@ h1 {
     border-bottom: 1px solid #00508b;
     background-color: rgba(0, 81, 139, 0.22);
     font-size: 16px;
+    color: white;
 }
 
 .login-button {
