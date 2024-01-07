@@ -91,10 +91,15 @@ nav ul li{
 
     .membership-plan p {
         margin: 0px ;
+        color: white;
+    }
+
+    .color{
+      color: white;
     }
 
     .membership-plan button {
-        background-color: #333;
+      background: linear-gradient(to right, #45809f, #112e46, #841822);
         color: #fdfdfd;
         border: none;
         padding: 10px 20px;
@@ -105,6 +110,11 @@ nav ul li{
         margin: 10px 0;
         cursor: pointer;
     }
+
+    .membership-plan button:hover {
+      background: linear-gradient(to left, #45809f, #112e46, #841822);
+  }
+  
 
     table {
         width: 100%;

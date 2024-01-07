@@ -4,7 +4,7 @@
     box-sizing:border-box;
   }	
  header{
-     background-image:url(img/gym5.jpg);
+     background-image:url(img/login4.jpg);
      width:100vw;
      height:78vw;
      background-size:cover;
@@ -255,11 +255,11 @@
  .dropdown:hover .dropbtn {background-color: #3e8e41;}
  
  .title{
-    color: rgb(255, 39, 39);
+    color: rgb(255, 252, 252);
     text-align: center;
  }
  .title2{
-    color: rgb(234, 238, 238);
+    color: rgb(240, 7, 42);
     text-align: center;
  }
 
