@@ -4,7 +4,7 @@
     box-sizing:border-box;
   }	
  header{
-     background-image:url(img/login4.jpg);
+     background-image:url(img/loginbg.jpg );
      width:100vw;
      height:78vw;
      background-size:cover;
@@ -12,6 +12,8 @@
      background-repeat:no-repeat;
      border-top:0.5rem solid black;
      border-bottom:0.5rem solid black;
+   
+     ;
  }
  nav {
      border:0px 	solid red;
@@ -67,7 +69,7 @@
      color:red;
  }	
  p{
-     color:white;
+     color: aliceblue;
      font-size:22px;
      text-align:center;
  }
