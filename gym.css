@@ -267,14 +267,6 @@
 
  .yoga{
     width: 450px;
-
-
-
-
-
-
-
-    
     border-radius: 15px;
     margin-top: 25px;
     margin-left: 200px;
@@ -313,7 +305,7 @@
  .img-wrapper {  
   width: 700px;
   height: 350px;
-  overflow: hidden; 
+
 }
 
 .yoga {
